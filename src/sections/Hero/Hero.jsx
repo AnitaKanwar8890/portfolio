@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/Design uten navn.jpeg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import { useState } from 'react';
@@ -26,23 +26,23 @@ function Hero() {
       <div className={styles.colorModeContainer}>
         <img
           src={heroImg}
-          className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          className={`${styles.hero} ${styles.circularImage}`}
+          alt="Profile picture of Anita Kanwar"
         />
       </div>
       <div className={styles.info}>
-        <h1>Anita Rathore</h1>
+        <h1>Anita Kanwar</h1>
         <h2>Frontend Developer</h2>
         <p className={styles.description}>Write a brief intro here</p>
-        
+
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/AnitaRa59049282" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/AnitaKanwar8890" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/anita-kanwar-0a5904271/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>

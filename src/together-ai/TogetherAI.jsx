@@ -46,7 +46,8 @@ export default async function TogetherAI(question) {
       },
       {
         "role": "assistant",
-        "content": "The candidate has worked on the following projects:\n\n1. **ChainGamble (MERN, Rust, Euclid Protocol)**\n   - Developed a decentralized gambling platform with cryptographic randomness and cross-chain transactions.\n   - Built a scalable MERN-based interface with Rust-based smart contracts.\n\n2. **OtakuVerse (Next.js)**\n   - Created an anime exploration platform with JWT authentication and content filtering.\n   - Integrated AnimeDB API for seamless data flow between backend and user interface."
+        "content": "The candidate has worked on the following projects:\n\n1. **Number Guessing Game**\n   - Developed a number guessing game with real-time feedback and input validation.\n   - Designed a responsive UI with attempt tracking and a reset functionality.\n   - Utilized DOM manipulation and event listeners for smooth user interaction.\n\n2. **Digital Clock**\n   - Built a live digital clock using JavaScript's `Date` object and `setInterval()`.\n   - Designed a modern UI with a dark theme and highlighted time display.\n   - Implemented a flexbox layout for responsive and centered positioning.\n\n3. **Color Changing Game**\n   - Created an interactive color-changing game with smooth transition effects.\n   - Used JavaScript's `setInterval()` for dynamic color changes at intervals.\n   - Designed an intuitive UI with start/stop buttons for user control."
+
       },
       {
         "role": "user",
@@ -54,7 +55,7 @@ export default async function TogetherAI(question) {
       },
       {
         "role": "assistant",
-        "content": "The candidate's achievements include:\n\n- **Winner** of the Euclid Web3 Hackathon for creating a decentralized gambling platform with cross-chain transactions.\n- **Qualified** for the Smart India Hackathon (College Stage) with an AI-driven recruitment platform that enhanced resume matching accuracy using algorithms like Sentence-BERT, TF-IDF, and BoW."
+        "content": "The candidate's achievements include:\n\n- Pupil on Codeforces : Max Rating: 1217.\n-  Awarded AlR 9219 in JEE Advanced 2022."
       },
       {
         "role": "user",

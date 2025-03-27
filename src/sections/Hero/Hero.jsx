@@ -33,7 +33,7 @@ function Hero() {
       <div className={styles.info}>
         <h1>Anita Kanwar</h1>
         <h2>Frontend Developer</h2>
-        <p className={styles.description}>Write a brief intro here</p>
+        <p className={styles.description}>Write an  brief intro here</p>
 
         <span>
           <a href="https://x.com/AnitaRa59049282" target="_blank">

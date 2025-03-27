@@ -2,7 +2,7 @@ import Together from "together-ai";
 
 export default async function TogetherAI(question) {
   const together = new Together({
-    apiKey: "292af7dfa146a55a23f4f05583489211500097aff1c411da5d200102ee984bd9"
+    apiKey: import.meta.env.VITE_TOGETHER_AI_API_KEY
   });
 
   // Step-by-step chat to train the assistant

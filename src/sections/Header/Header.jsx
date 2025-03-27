@@ -11,7 +11,32 @@ import CV from '../../assets/cv.pdf';
 
 function Header() {
     const { theme, toggleTheme } = useTheme();
-    const themeIcon = theme === 'light' ? sun : moon;
+    const sunIcon = (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="white"
+            width="24"
+            height="24"
+        >
+            <path d="M12 4V2m0 20v-2m10-8h-2M4 12H2m16.95-6.95l-1.41-1.41M6.34 17.66l-1.41 1.41M17.66 17.66l1.41 1.41M6.34 6.34l-1.41-1.41M12 18a6 6 0 100-12 6 6 0 000 12z" />
+        </svg>
+    );
+
+    const moonIcon = (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="white"
+            width="24"
+            height="24"
+        >
+            <path d="M12 2a9 9 0 008.94 10.68A7 7 0 0112 22a7 7 0 010-14 7 7 0 018.94 4.68A9 9 0 0012 2z" />
+        </svg>
+    );
+
+    const themeIcon = theme === 'light' ? sunIcon : moonIcon;
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -71,11 +96,10 @@ function Header() {
                 <div className="header-buttons">
 
                     <div>
-                        <img
-                            src={themeIcon}
-                            alt="Color mode icon"
-                            onClick={toggleTheme}
-                        />
+                        <div onClick={toggleTheme} style={{ cursor: 'pointer' }}>
+                            {themeIcon}
+                        </div>
+
                     </div>
                     <button
                         className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}

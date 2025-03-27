@@ -32,8 +32,10 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Anita Kanwar</h1>
-        <h2>Frontend Developer</h2>
-        <p className={styles.description}>Write an  brief intro here</p>
+        <p className={styles.description}>Hi, I'm Anita Kanwar,
+          an Electrical Engineering student at IIT Varanasi
+          with a passion for software development, web development, and competitive programming.
+          Always eager to learn and innovate!</p>
 
         <span>
           <a href="https://x.com/AnitaRa59049282" target="_blank">

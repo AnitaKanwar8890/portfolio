@@ -19,6 +19,7 @@ This is an interactive and responsive portfolio webpage showcasing my skills, pr
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
-https://github.com/AnitaKanwar8890/portfolio.git
 ```sh
+git clone https://github.com/AnitaKanwar8890/portfolio.git
+cd portfolio
 

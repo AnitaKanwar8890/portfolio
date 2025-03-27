@@ -33,7 +33,6 @@ function AISection() {
         // Clear the input after asking the question
         setQuestion("");
     };
-
     return (
         <div className={`chat-container ${theme}-mode`}>
             <div className="chat-box">
@@ -60,7 +59,7 @@ function AISection() {
             </div>
 
             {/* Theme toggle button */}
-           
+
         </div>
     );
 }

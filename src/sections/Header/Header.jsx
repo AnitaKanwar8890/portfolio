@@ -25,10 +25,10 @@ function Header() {
             const navMenu = document.querySelector('.nav-menu');
 
             if (
-                isMenuOpen && 
-                menuToggle && 
-                navMenu && 
-                !menuToggle.contains(event.target) && 
+                isMenuOpen &&
+                menuToggle &&
+                navMenu &&
+                !menuToggle.contains(event.target) &&
                 !navMenu.contains(event.target)
             ) {
                 setIsMenuOpen(false);
@@ -53,7 +53,7 @@ function Header() {
         <header className="site-header">
             <div className="header-container">
                 <div className="logo">
-                    <span>Anita Rathore</span>
+                    <span>Anita Kanwar</span>
                 </div>
 
                 <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
@@ -63,13 +63,13 @@ function Header() {
                         <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
                         <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
                     </ul>
-                    
+
                     {/* Social icons for mobile view */}
-                    
+
                 </nav>
 
                 <div className="header-buttons">
-                    
+
                     <div>
                         <img
                             src={themeIcon}
@@ -77,8 +77,8 @@ function Header() {
                             onClick={toggleTheme}
                         />
                     </div>
-                    <button 
-                        className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} 
+                    <button
+                        className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
                         onClick={toggleMenu}
                         aria-label="Toggle Menu"
                     >

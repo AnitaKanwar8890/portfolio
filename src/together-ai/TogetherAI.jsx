@@ -2,7 +2,7 @@ import Together from "together-ai";
 
 export default async function TogetherAI(question) {
   const together = new Together({
-    apiKey: "APIKEY"
+    apiKey: "292af7dfa146a55a23f4f05583489211500097aff1c411da5d200102ee984bd9"
   });
 
   // Step-by-step chat to train the assistant
@@ -22,7 +22,7 @@ export default async function TogetherAI(question) {
       },
       {
         "role": "assistant",
-        "content": "Sure! The candidate has the following skills:\n\n- Programming Languages: C++, C, JavaScript (ES6+)\n- Frontend: React.js, Next.js, HTML, CSS, TailwindCSS, Bootstrap\n- Backend: Node.js, Express.js, Firebase, MQTT, REST APIs\n- Database: MongoDB, Firebase\n- Tools & Platforms: Git, GitHub, Web3.js, HardHat, VS Code."
+        "content": "Sure! The candidate has the following skills:\n\n- Programming Languages: C++, C, JavaScript (ES6+)\n- Frontend: React.js,  HTML, CSS\n- Tools & Platforms: Git, GitHub, VS Code."
       },
       {
         "role": "user",
@@ -30,7 +30,7 @@ export default async function TogetherAI(question) {
       },
       {
         "role": "assistant",
-        "content": "The candidate has worked as a Software Developer Intern at Drobot.Inc (Remote) from August 2023 to January 2024. The key achievements in this role include:\n\n- Led the development of an Admin Portal using React and Node.js.\n- Integrated Firebase for real-time database management and secure authentication.\n- Implemented real-time communication using MQTT, reducing latency by 50%.\nTech Stack: React.js, Node.js, Firebase, MQTT, MongoDB, REST APIs."
+        "content": "No experience"
       },
       {
         "role": "user",
@@ -38,7 +38,7 @@ export default async function TogetherAI(question) {
       },
       {
         "role": "assistant",
-        "content": "The candidate is currently pursuing a Bachelor of Technology at the Indian Institute of Technology BHU (08/2022 - Present). Their major is in Electrical Engineering IDD."
+        "content": "The candidate is currently pursuing a Bachelor of Technology at the Indian Institute of Technology BHU (08/2022 - Present). Their major is in Electrical Engineering BTech."
       },
       {
         "role": "user",
